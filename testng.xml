@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceDemo Test Suite" parallel="tests" thread-count="3">
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chromium"/>
+        <classes>
+            <class name="tests.SauceDemoTest"/>
+        </classes>
+    </test>
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.SauceDemoTest"/>
+        </classes>
+    </test>
+    <test name="WebKit Tests">
+        <parameter name="browser" value="webkit"/>
+        <classes>
+            <class name="tests.SauceDemoTest"/>
+        </classes>
+    </test>
+</suite>
