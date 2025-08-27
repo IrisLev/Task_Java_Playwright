@@ -50,3 +50,5 @@ The test will output:
 - `testng.xml` - TestNG configuration
 - `src/main/resources/config.properties` - Test configuration
 
+
+
